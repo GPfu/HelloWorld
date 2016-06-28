@@ -36,7 +36,6 @@ int main() {
         } else {
 	        printf("false \n");
         }
-	printf("3 > 2 \t \t");
 
 	return 0;
 }
