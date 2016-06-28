@@ -1,17 +1,18 @@
 #include <stdio.h>
 int main() {
-	int v;
-	for (v = 1; v <= 5; v++) {
-		printf("%d \t", v);
-	}
-	printf("\n");
-	int d1 = 12 / 4;
-	int d2 = 3 * 3;
-	for (; d1 <= d2; d1++) {
-		printf("%d \t", d1);
-	}
-	printf("\n");
-	int i = 0;
-	for (printf("Hello! \n"); i < 5; printf("You're awesome! \n")) {i++;}
-	return 0;
+		int testValue = 3;
+		switch (testValue) {
+			default:
+				printf("The value is not one being tested");
+			case 1:
+				printf("The value is 1");
+			case 2:
+				printf("The value is 2");
+			case 3:
+			case 4:
+				printf("The value is 3 or 4");
+				break;
+		}
+		printf("\n");
+		return 0;
 }
