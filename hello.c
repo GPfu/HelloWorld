@@ -1,7 +1,48 @@
 #include <stdio.h>
 int main() {
-	printf("Is 55=50 \t %d \n", (55==50));
-	printf("Is 55=55 \t %d \n", (55==55));
+	printf("3 > 2 ");
+	if (3 > 2) {
+		printf("true \n");
+	} else {
+		printf("false \n");
+	}
+	printf("3 < 2 ");
+	if (3 < 2) {
+                printf("true \n");
+        } else {
+	        printf("false \n");
+        }
+	printf("3 - (2 + 1) ");
+	if (3 - (2 + 1)) {
+                printf("true \n");
+        } else {
+	        printf("false \n");
+        }
+	printf("d ");
+	if ('d') {
+                printf("true \n");
+        } else {
+	        printf("false \n");
+        }
+	printf("9mod3 ");
+	if (9 % 3) {
+                printf("true \n");
+        } else {
+	        printf("false \n");
+        }
+	printf("(3 > 2) - 1 ");
+	if ((3 > 2) - 1) {
+                printf("true \n");
+        } else {
+	        printf("false \n");
+        }
+	printf("3 > 2 ");
+	if (3 >	2) {
+                printf("true \n");
+        } else {
+	        printf("false \n");
+        }
+
 	return 0;
 }
 
