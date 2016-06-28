@@ -1,15 +1,11 @@
 #include <stdio.h>
 int main() {
-	int value = 33;
-	float floatval = (float) value;
-	float pi = 3.1415926;
-	int intpi = (int) pi;
-	short strshort;
-	char tinystr[] = "X";
-	strshort = (short) (*tinystr);
-	printf("Pi as int = %d.\n", intpi );
-	printf("Str as short = %d.\n", strshort);
-	printf("Int as float = %f.\n", floatval);
+	float m1 = 4 / 3;
+	float m2 = 4 % 3;
+	float m3 = 4.0 / 3;
+	printf("4/3 = %f.\n", m1);
+	printf("4mod3 = %f.\n", m2);
+	printf("4.0/3 = %f.\n", m3);
 	return 0;
 }
 
