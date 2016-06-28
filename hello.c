@@ -6,10 +6,10 @@ int main() {
 	int intpi = (int) pi;
 	short strshort;
 	char tinystr[] = "X";
-	short StrShort;
+	strshort = (short) (*tinystr);
 	printf("Pi as int = %d.\n", intpi );
 	printf("Str as short = %d.\n", strshort);
-	printf("Int as float = %d.\n", floatval);
+	printf("Int as float = %f.\n", floatval);
 	return 0;
 }
 
